@@ -53,6 +53,10 @@ public class Mycontroller {
 	
 	@GetMapping("/newabout")
 	public String newAbout() {
+		System.out.println("_________________");
 		return "aboutnew";
 	}
+
+
+
 }
