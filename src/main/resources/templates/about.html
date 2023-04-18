@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+<h1>hiiiiiii</h1>
+<h1 th:text="${ #strings.toUpperCase(name)}"></h1>
+<h2 th:text="${name}"></h2>
+<h2 th:text="${currentDate}"></h2>
+<!-- <div th:width="a=5,b=67,n=${name}"> -->
+<!-- <h1>value of a is <span th:text="${a}"></span></h1>
+</div> -->
+</body>
+</html>

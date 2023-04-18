@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>service page</title>
+</head>
+<body>
+	<h1>this is service class</h1>
+	<h1>i am going to bring footer part od my code</h1>
+	<!-- going to bring footer tag -->
+<!-- 	we use repelace tag to replace service class all footer section to footer class footer section -->
+<!-- <footer id="hostTag" th:replace="footer::footer1"></footer>
+
+th:insert  -->
+<!-- <footer id="hostTag" th:insert="footer::footer1">service footer</footer> -->
+
+<!-- th:include -->
+<!-- <footer id="hostTag" th:include="footer::footer1">service footer</footer> -->
+
+<!-- add title and subtitle -->
+
+<footer id="hostTag" th:replace="footer::footer1(${title},${subtitle})">service footer</footer>
+</body>
+
+</html>
